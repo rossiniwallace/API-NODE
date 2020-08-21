@@ -1,0 +1,19 @@
+POST http://localhost:3000/auth/authentication 
+Content-Type: : application/json
+
+{
+    "email": "rossiniwallace@gmail.com",
+    "password":"bcd127"
+}
+###
+
+POST http://localhost:3000/auth/register 
+Content-Type: : application/json
+
+{
+    "name": "João Victor",
+    "email": "victorjoao@gmail.com",
+    "password":"123456789",
+    "passwordResetToken": null,
+    "passwordResetExpires": null
+}
